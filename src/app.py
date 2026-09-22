@@ -22,29 +22,29 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 # In-memory activity database
 activities = {
     "Chess Club": {
-        "description": "Learn and play chess",
-        "schedule": "Fridays, 3:30 PM",
+        "description": "Learn strategies and compete in chess tournaments",
+        "schedule": "Fridays, 3:30 PM - 5:00 PM",
         "max_participants": 12,
-        "participants": [],
+        "participants": ["michael@mergington.edu", "daniel@mergington.edu"],
     },
     "Programming Club": {
-        "description": "Learn coding and software development",
-        "schedule": "Tuesdays, 4:00 PM",
-        "max_participants": 15,
-        "participants": [],
+        "description": "Learn programming fundamentals and build software projects",
+        "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
+        "max_participants": 20,
+        "participants": ["emma@mergington.edu", "sophia@mergington.edu"],
     },
     "Gymnastics": {
-        "description": "Physical fitness and routines",
-        "schedule": "Mondays, 3:30 PM",
-        "max_participants": 10,
-        "participants": [],
+        "description": "Physical education and sports activities",
+        "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
+        "max_participants": 30,
+        "participants": ["john@mergington.edu", "olivia@mergington.edu"],
     },
     # Add a 4th activity below:
     "Art Club": {
         "description": "Painting and creative expression",
         "schedule": "Thursdays, 3:30 PM",
         "max_participants": 10,
-        "participants": [],
+        "participants": ["ava@mergington.edu", "noah@mergington.edu"],
     },
 }
 
