@@ -5,6 +5,7 @@ A super simple FastAPI application that allows students to view and sign up for 
 ## Features
 
 - View all available extracurricular activities
+- View detailed information for every activity on the all activities page
 - Sign up for activities
 
 ## Getting Started
@@ -22,6 +23,8 @@ A super simple FastAPI application that allows students to view and sign up for 
    ```
 
 3. Open your browser and go to:
+   - Home page: http://localhost:8000/
+   - All activities: http://localhost:8000/static/activities.html
    - API documentation: http://localhost:8000/docs
    - Alternative documentation: http://localhost:8000/redoc
 
